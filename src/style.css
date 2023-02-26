@@ -1,0 +1,59 @@
+@import 'fonts/font.css';
+
+:root {
+	--body-clr: #F4F4F2;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: var(--body-clr);
+
+	scroll-behavior: smooth;
+	overflow: auto;
+	scrollbar-width: thin;
+}
+
+
+* {transition: 0.1s ease-in-out; font-family: 'JetBrainsMono Regular', monospace;}
+button:focus {outline: none;}
+input:focus {outline: none;}
+textarea:focus {outline: none;}
+ul, li {padding: 0;margin: 0;list-style: none;}
+
+::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;, height: 2px;}
+::-webkit-scrollbar-thumb {background: #999999; border-radius: 0px;}
+::-webkit-scrollbar-track-piece {background: transparent;}
+::selection { color: white; background-color: black; }
+
+
+#main-block {
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	text-align: center;
+	border: 0px solid transparent;
+	width: 50%;
+	font-size: 12pt;
+	text-align: left;
+}
+
+
+#main-block > div {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#main-block > div > h2 {
+	user-select: none;
+}
+
+
+#social-networks-block a {
+	color: black;
+	background-color: transparent;
+}
+#social-networks-block a:hover {
+	color: white;
+	background-color: black;
+}
