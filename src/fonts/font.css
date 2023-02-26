@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "JetBrainsMono SemiBold";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('JetBrainsMono-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "JetBrainsMono Medium";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('JetBrainsMono-Medium.ttf');
+}
+
+@font-face {
+	font-family: "JetBrainsMono Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+	font-family: "JetBrainsMono Light";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('JetBrainsMono-Light.ttf');
+}
+
+@font-face {
+	font-family: "JetBrainsMono ExtraLight";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('JetBrainsMono-ExtraLight.ttf');
+}
+
