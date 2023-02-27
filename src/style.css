@@ -4,7 +4,7 @@
 	--body-clr: #F4F4F2;
 }
 
-body {
+html, body {
 	padding: 0;
 	margin: 0;
 	background-color: var(--body-clr);
@@ -12,6 +12,11 @@ body {
 	scroll-behavior: smooth;
 	overflow: auto;
 	scrollbar-width: thin;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
@@ -19,7 +24,7 @@ body {
 button:focus {outline: none;}
 input:focus {outline: none;}
 textarea:focus {outline: none;}
-ul, li {padding: 0;margin: 0;list-style: none;}
+ul, li {margin: 0;}
 
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;, height: 2px;}
 ::-webkit-scrollbar-thumb {background: #999999; border-radius: 0px;}
@@ -27,27 +32,47 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 ::selection { color: white; background-color: black; }
 
 
+#menu-block {
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	border: 0px solid transparent;
+	width: 150px;
+	font-size: 12pt;
+	margin-top: 60px;
+}
+#menu-block > ul { padding-top: 20px; }
+
+#menu-block a {
+	color: #6c757d;
+	background-color: transparent;
+	text-decoration: none;
+}
+#menu-block a:hover {
+	text-decoration: underline;
+	color: white;
+	background-color: black;
+}
+
+/* ------------------ */
+
+
 #main-block {
 	margin-left: auto;
 	margin-right: auto;
 	background: transparent;
-	text-align: center;
+	text-align: left;
 	border: 0px solid transparent;
-	width: 50%;
+	width: 70%;
 	font-size: 12pt;
 	text-align: left;
-}
-
-
-#main-block > div {
 	margin-top: 60px;
-	margin-bottom: 60px;
 }
 
-#main-block > div > h2 {
-	user-select: none;
-}
 
+#main-block > div:not(#main-block > div:nth-of-type(1)) { margin-bottom: 60px; }
+#main-block > div > h2 { user-select: none; }
+#main-block span { white-space: pre-wrap; }
 
 #social-networks-block a {
 	color: black;
