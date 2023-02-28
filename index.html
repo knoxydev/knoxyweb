@@ -4,17 +4,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>knoxyweb</title>
-	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<link rel="stylesheet" type="text/css" href="src/global.css">
+	<style type="text/css">
+		@import 'src/fonts/font.css';
+
+		#main-block > div:not(#main-block > div:nth-of-type(1)) { margin-bottom: 60px; }
+		#social-networks-block a { color: black; background-color: transparent; }
+		#social-networks-block a:hover { color: white; background-color: black; }
+	</style>
 </head>
 <body>
 
 	<div id="menu-block">
 		<div style="border-top: 2px dashed black;"></div>
 
+		<!-- <p align="center"> <img src="https://komarev.com/ghpvc/?username=knoxydev&label=Profile%20views&color=ce9927&style=flat" alt="knoxydev" /> </p>
+
+		![](https://komarev.com/ghpvc/?username=knoxydev) [![GitHub stars](https://img.shields.io/github/stars/knoxydev.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
+
+		<img src="https://img.shields.io/github/stars/knoxydev.svg?style=social&label=Star&maxAge=2592000"> -->
+
 		<ul>
-			<li>About me</li>
-			<li><a href="./pages/projects/index.html">Projects</a></li>
-			<li><a href="">Blog</a></li>
+			<li>• About me</li>
+			<li><a href="./pages/projects.html">Projects</a></li>
+			<li><a href="./pages/donation.html">Donation</a></li>
+			<li><a href="" style="text-decoration: line-through;">Blog</a></li>
 		</ul>
 	</div>
 
@@ -43,6 +57,7 @@
 
 			<h4>Programming</h4>
 			<ul>
+				<li>HTML & CSS</li>
 				<li>JavaScript</li>
 				<li>Python</li>
 				<li>Rust</li>
@@ -51,7 +66,7 @@
 
 			<h4>Technologies</h4>
 			<ul>
-				<li>Git / GitHub</li>
+				<li>Git / GitHub / Figma</li>
 				<li>Node.js / Vue.js / Solid.js</li>
 				<li>Flask / pyTelegramBotAPI</li>
 				<li>SQLite / Redis</li>
@@ -65,18 +80,6 @@
 				<li><a href="https://t.me/knoxydev">Telegram</a></li>
 				<li><a href="https://github.com/knoxydev">GitHub</a></li>
 				<li><a href="https://dribbble.com/nkrself">Dribbble</a></li>
-			</ul>
-		</div>
-
-		<div id="donate-block">
-			<h2>Donate me</h2>
-			<p>I would be extremely pleased if you sent me some money :)</p><br>
-
-			<ul>
-				<li>BTC: <span>bc1q7t5vqfsjs9mkwpt7jaq9lzy5gr52e7a68j49e8</span></li>
-				<li>ETH: <span>0x7Dd60dd3fb4434a290D6eAf193662e0F0297F2a4</span></li>
-				<li>SOL: <span>7LLwEFkvZ1U6Xyp9ibyATFha3XtgzB38qMUBpW2EAszC</span></li>
-				<li>TON: <span>EQAl_4uuCkI-rXUvdgbrk8jUmBrWrtZsGvmR3XxuSLC_cnRn</span></li>
 			</ul>
 		</div>
 
