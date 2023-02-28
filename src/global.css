@@ -24,9 +24,9 @@ ul, li {margin: 0;}
 
 #menu-block {
 	margin-left: auto;
-	margin-right: auto;
 	background: transparent;
 	border: 0px solid transparent;
+	text-align: left;
 	width: 110px;
 	font-size: 12pt;
 	margin-top: 70px;
@@ -56,7 +56,6 @@ ul, li {margin: 0;}
 	border: 0px solid transparent;
 	width: 450px;
 	font-size: 12pt;
-	text-align: left;
 	margin-top: 70px;
 	padding-bottom: 30px;
 	word-break: break-word;
