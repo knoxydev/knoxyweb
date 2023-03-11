@@ -15,6 +15,13 @@ html, body {
 * {transition: 0.1s ease-in-out; font-family: 'JetBrainsMono Regular', monospace;}
 ul, li {margin: 0;}
 
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;, height: 2px;}
 ::-webkit-scrollbar-thumb {background: #999999; border-radius: 0px;}
 ::-webkit-scrollbar-track-piece {background: transparent;}
