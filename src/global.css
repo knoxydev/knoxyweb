@@ -70,3 +70,6 @@ img {
 
 #main-block > div > h2 { user-select: none; }
 #main-block span { white-space: pre-wrap; }
+#main-block a:visited {
+	color: black;
+}
