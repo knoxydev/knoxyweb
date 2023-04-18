@@ -38,6 +38,7 @@ img {
 	font-size: 12pt;
 	margin-top: 70px;
 	margin-right: 25px;
+	user-select: none;
 }
 #menu-block > ul { list-style-type: none; padding-top: 20px; padding-left: 0; padding-right: 0; }
 
@@ -72,4 +73,20 @@ img {
 #main-block span { white-space: pre-wrap; }
 #main-block a:visited {
 	color: black;
+}
+
+#selected_tab { color: black; }
+#selected_tab:hover {
+	color: white;
+	background-color: black;
+}
+
+/* ------------------ */
+
+#post-title {
+	display: block;
+  font-size: 18pt;
+ 	margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  font-family: 'JetBrainsMono SemiBold', monospace;
 }
