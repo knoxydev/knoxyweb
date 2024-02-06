@@ -10,19 +10,9 @@
 		@import '../src/fonts/font.css';
 	</style>
 </head>
-<body>
+<body onload="menu(4)">
 	<div id="menu-block">
 		<div style="border-top: 2px dashed black;"></div>
-
-		<ul>
-			<li><a href="../index.html">About me</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="donation.html">Donation</a></li>
-			<li><a href=""><span id="selected_tab">• Photos</span></a></li>
-			<li><a href="movies.html">Movies</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="apps.html">Apps</a></li>
-		</ul>
 	</div>
 
 	<div id="main-block">
@@ -64,5 +54,7 @@
 			<img src="../src/pics/pic-35.jpg" loading="lazy">
 		</div>
 	</div>
+
+	<script type="text/javascript" src="../src/main.js"></script>
 </body>
 </html>
