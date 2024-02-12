@@ -8,7 +8,8 @@ const menu = (x) =>
 		{ name : "Photos", link : "../pages/photos.html", },
 		{ name : "Movies", link : "../pages/movies.html", },
 		{ name : "Blog", link : "../pages/blog.html", },
-		{ name : "Apps", link : "../pages/apps.html",} ];
+		{ name : "Apps", link : "../pages/apps.html",},
+		{ name : "Walls", link : "../pages/wallpapers.html", } ];
 
 	items.forEach((elm, idx) =>
 	{
