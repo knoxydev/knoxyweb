@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>knoxyweb::blog</title>
+	<link rel="stylesheet" type="text/css" href="../src/global.css">
+	<link rel="stylesheet" type="text/css" href="../src/adaptive.css">
+	<style type="text/css">
+		@import '../src/fonts/font.css';
+	</style>
+</head>
+<body onload="menu(6)">
+	<div id="menu-block">
+		<div style="border-top: 2px dashed black;"></div>
+	</div>
+
+	<div id="main-block">
+		<div style="border-top: 2px dashed black;"></div>
+
+		<div id="post-block">
+			<div id="post-title">Yet another attempt to make Helix more convenient</div>
+			<div style="color: #6c757d">21-03-2024 / 20:34</div>
+
+			<img src="pics/1.png">
+
+			<p>
+				let me clarify my situation and give more details. my default terminal-based editor is micro[1] and I like it.
+				however, performance isn't good and I consider helix-editor[2] is more smooth and fast. I think this is because micro is written in golang,
+				while helix is written in rust, but it's simply my assumption.
+				<br><br>
+				if u ask me why I like micro ? my simple answer is that this editor is so simple and not overrated. especially, not overrated with keybindings.
+				<br><br>
+				I ain't fun of vim-like[3] navigation. it seems too complicated for me. of course, I understand that this type of navigation is very good thing for most people,
+				but not for me simply because it's complicated and it's hard to keep in mind these keybindings. I accept opinion that with having skills in vim-navigation,
+				developer can better edit code, but minimalism and simplicity is important for me in editing. I ain't gonna dissuade you from using vim or whatever else in this text.
+				I just describe my own experience with these terminal-based editors.
+				<br><br>
+				micro is good because u just edit without switching mode like in vim-like navigation (helix based on vim-navigation). moreover,
+				I often use clipboard during editing code. for example, if I wanna paste something to clipboard in micro, I just hold down "shift",
+				select necessary text with arrows and then I just "ctrl-c". meanwhile in helix, u'll have to switch to select mode from insert mode and
+				then use hotkey and it's so inconvenient. however, fortunately we're able to change keymap and customize for yourself what pleases me.
+				<br><br>
+				if I can set up and get used to helix-editor, most likely, helix will become my default editor because of itself good performance which is also can be called as blazingly fast))
+				<br><br>
+				[1]: https://micro-editor.github.io/
+				<br>
+				[2]: https://helix-editor.com/
+				<br>
+				[3]: https://www.vim.org/
+			</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../src/main.js"></script>
+</body>
+</html>
