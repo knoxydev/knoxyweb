@@ -17,9 +17,27 @@ ul, li {margin: 0;}
 
 img {
   max-width: 100%;
+	max-height: 100%;
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.link {
+	margin-bottom: 0px;
+	margin: 0;
+	padding: 0;
+	inline-size: 100%;
+	word-break: break-all;
+	text-decoration: none;
+}
+.link:hover {
+	text-decoration: underline;
 }
 
 ::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;, height: 2px;}
@@ -53,6 +71,7 @@ img {
 	background-color: black;
 }
 
+
 /* ------------------ */
 
 
@@ -62,7 +81,7 @@ img {
 	background: transparent;
 	text-align: left;
 	border: 0px solid transparent;
-	width: 450px;
+	width: 500px;
 	font-size: 12pt;
 	margin-top: 70px;
 	padding-bottom: 30px;
@@ -89,4 +108,9 @@ img {
  	margin-top: 0.83em;
   margin-bottom: 0.83em;
   font-family: 'JetBrainsMono SemiBold', monospace;
+}
+
+#quote-block {
+	padding: 12px;
+	background-color: transparent;
 }
